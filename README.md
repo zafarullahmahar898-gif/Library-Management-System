@@ -1,3 +1,52 @@
-# Library-Management-System
-Library Management System (Java Swing & MySQL)A complete Desktop Application designed to digitalize library operations. It features a user-friendly interface with real-time database connectivity.
-# ✨ FeaturesSecure Login: Admin authentication with database validation.  Student Registration: Easily register and manage student records.  Book Management: Functionality to add new books and track their availability status.  Issue Book Module: Assign books to students with automated current date capture and due date tracking.  Return Book Module: Process book returns and automatically update the database records.  Smart Search: Quick data retrieval using Book ID or Student ID to populate fields automatically.  🛠️ Technologies UsedLanguage: Java (JDK 8 or higher)GUI Framework: Java Swing & AWT  Database: MySQL (Localhost)  IDE: NetBeans / Apache NetBeansLibrary: MySQL Connector/J (JDBC Driver)🚀 Setup InstructionsDatabase Configuration:Start your MySQL Server (via XAMPP or WAMP).Create a database named library.  Execute the SQL queries provided in the project folder to create the book, student, and returnbook tables.Project Import:Open the project in NetBeans.Right-click the project, go to Properties > Libraries, and add the mysql-connector-j-9.7.0.jar file.Run the Application:Locate SignIn.java, right-click it, and select Run File.
+# 📚 Library Management System
+
+A complete **Desktop Library Management System** built using **Java Swing & MySQL**.  
+This application helps digitalize library operations with a simple and user-friendly interface.
+
+---
+
+## ✨ Features
+
+### 🔐 Secure Login
+- Admin authentication with database validation
+
+### 👨‍🎓 Student Registration
+- Register and manage student records
+
+### 📖 Book Management
+- Add new books
+- Update book details
+- Track book availability
+
+### 📌 Issue Book Module
+- Assign books to students
+- Automatic issue date capture
+- Due date tracking
+
+### 🔄 Return Book Module
+- Process book returns
+- Automatically update database records
+
+### 🔍 Smart Search
+- Quickly search books and student records
+
+---
+
+## 🛠 Technologies Used
+
+- **Programming Language:** Java (JDK 8 or higher)
+- **GUI Framework:** Java Swing & AWT
+- **Database:** MySQL
+- **IDE:** NetBeans / Apache NetBeans
+- **Library:** MySQL Connector/J (JDBC Driver)
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Database Configuration
+- Start your MySQL Server (via XAMPP or WAMP)
+- Create a database named:
+
+```sql
+library
